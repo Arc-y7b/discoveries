@@ -128,3 +128,4 @@ The only side effect is that Roblox will redownload game assets the next time yo
 - Worked together to identify that Fishstrap residuals and Roblox asset cache were causing custom sky textures to persist after uninstall.
 - Confirmed the fix path: remove `%LOCALAPPDATA%\Fishstrap`, `%LOCALAPPDATA%\Temp\Fishstrap`, and Roblox cache files under `%LOCALAPPDATA%\Roblox\rbx-storage`.
 - Added this README update so the recovery steps and our troubleshooting progress are documented for future reference.
+- Next step: verify GitHub CLI authentication and use `gh` for future repo operations.
